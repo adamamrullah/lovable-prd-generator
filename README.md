@@ -12,6 +12,7 @@ It focuses on real user problems, restrained scope, **numbered end-to-end flows,
 lovable-prd-generator/
 ├── SKILL.md                     # Agent instructions and trigger metadata
 ├── README.md                    # Download and usage instructions
+├── LICENSE                      # MIT license
 ├── references/
 │   ├── prd-blueprint.md         # Detailed PRD authoring reference
 │   └── behavior-contracts.md   # Trigger/Action/Result and test examples
@@ -104,3 +105,9 @@ The structure follows the [Agent Skills specification](https://agentskills.io/sp
 - Added Do Not Change guardrails and regression/migration guidance for existing Lovable projects.
 - Made greenfield technology defaults conditional on the actual project setup.
 - Made actual Markdown file delivery part of the workflow, without relying on machine-specific paths.
+
+## License
+
+Licensed under the [MIT License](LICENSE). Copyright (c) 2026 Adam Amrullah.
+
+You can use, modify and share this skill for free, including for commercial work. When distributing copies or substantial portions, keep the copyright and license notices. The skill is provided without warranty; see [LICENSE](LICENSE) for the full terms.
